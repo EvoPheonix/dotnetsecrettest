@@ -6,10 +6,7 @@ jobs:
   gitleaks:
     runs-on: ubuntu-latest
     steps:
-    - run: ls
     - uses: actions/checkout@v1
     - name: gitleaks-action
       uses: zricethezav/gitleaks-action@master
-      with: 
-        repo-config-path: .github/.gitleaks.toml
       
