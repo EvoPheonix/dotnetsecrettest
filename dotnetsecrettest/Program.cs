@@ -15,6 +15,7 @@ namespace dotnetsecrettest
         {
             var APIKey = "ENbgIgbWFXyoV0bwxsDCNmL9+rUxNY5U9dTRUaXChQSOpTuKTXa12dNhwP8gH/sQZ9GgUT2qV71H3CwqsWPMGw=="; ;
             var APIKey2 = "ENbgIgbWFXyoV0bwxsDCNmL9+rUxNY5U9dTRUaXChQSOpTuKTXa12dNhwP8gH/sQZ9GgUT2qV71H3CwqsWPMGw==";
+                        var aws_secret = "ABCDEF+c2L7yXeGvUyrPgYsDnWRRC1AYEXAMPLE";
 
 
             CreateHostBuilder(args).Build().Run();
