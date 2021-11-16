@@ -1,0 +1,13 @@
+on: [push,pull_request]
+
+repos:
+- repo: local
+  hooks:
+  - id: gitleaks
+    name: Gitleaks
+    language: docker_image
+    entry: zricethezav/gitleaks:v7.4.0
+    args:
+    - --config-path
+    - .gitleaks.toml
+    - --verbose
